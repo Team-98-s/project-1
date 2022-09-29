@@ -1,31 +1,43 @@
+/* Commen*/
+h1 {
+  font-size: 36px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+p {
+  margin: 0 0 10px;
+  padding: 10px 0;
+}
+
 /* nav bar */
-.nav{
-    min-height: 50px;
-    background-color: #5264ae;
-    display: flex;
-    justify-content: space-between;
+.nav {
+  min-height: 50px;
+  background-color: #5264ae;
+  display: flex;
+  justify-content: space-between;
 }
-.nav .nav-left-child{
-    font-size: 15px;
-    margin-left: 50px;
-    height: 50px;
-    background-color: transparent;
-    color: white;
-    border: none;
-    cursor: pointer;
+.nav .nav-left-child {
+  font-size: 15px;
+  margin-left: 50px;
+  height: 50px;
+  background-color: transparent;
+  color: white;
+  border: none;
+  cursor: pointer;
 }
-.nav .nav-right-child{
-    line-height: 50px;
-    color: white;
-    margin-right: 50px;
-    text-decoration: none;
+.nav .nav-right-child {
+  line-height: 50px;
+  color: white;
+  margin-right: 50px;
+  text-decoration: none;
 }
-.nav .nav-right-child::before{
-    display: inline-block;
-    content: "";
-    width: 17px;
-    height: 12px;
-    background-color: white;   
+.nav .nav-right-child::before {
+  display: inline-block;
+  content: "";
+  width: 17px;
+  height: 12px;
+  background-color: white;
 }
 
 /* main contents */
@@ -45,6 +57,10 @@
   border: 0;
 }
 
+.container .description-box .btn-info-wrapper {
+  margin: 10px 0;
+}
+
 .container .description-box .btn-info {
   padding: 8px 30px;
   border: 0;
@@ -58,7 +74,6 @@
   border-color: #46b8da;
   transition: box-shadow 0.28s cubic-bezier(0.4, 0, 0.2, 1);
   box-shadow: 0 3px 10px rgb(0 0 0 / 23%), 0 3px 10px rgb(0 0 0 / 16%);
-  outline: none !important;
 }
 
 .container .result-box {
