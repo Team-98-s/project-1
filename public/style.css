@@ -1,3 +1,4 @@
+/* nav bar */
 .nav{
     min-height: 50px;
     background-color: #5264ae;
@@ -26,4 +27,72 @@
     height: 12px;
     background-image: url("https://ifh.cc/g/3TkYsC.jpg");
     background-size: 17px 12px;
+    background-color: white;   
+}
+
+/* main contents */
+
+.container {
+  background-color: rgb(235, 231, 231);
+  padding: 30px 30px;
+}
+
+.container .description-box {
+  /* border: 2px solid red; */
+  padding: 19px;
+  margin-bottom: 50px;
+  background-color: white;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 23%), 0 3px 10px rgb(0 0 0 / 16%);
+  border-radius: 2px;
+  border: 0;
+}
+
+.container .description-box .btn-info {
+  padding: 8px 30px;
+  border: 0;
+  margin: 10px 1px;
+  cursor: pointer;
+  border-radius: 2px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fff;
+  background-color: #5bc0de;
+  border-color: #46b8da;
+  transition: box-shadow 0.28s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0 3px 10px rgb(0 0 0 / 23%), 0 3px 10px rgb(0 0 0 / 16%);
+  outline: none !important;
+}
+
+.container .result-box {
+  margin-bottom: 50px;
+  padding: 19px;
+  margin-bottom: 50px;
+  background-color: white;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 23%), 0 3px 10px rgb(0 0 0 / 16%);
+  border-radius: 2px;
+  border: 0;
+  background-color: white;
+}
+.container .result-box .input-wrapper {
+  margin-bottom: 15px;
+}
+.container .result-box input {
+  width: 100px;
+  border: none;
+  border-bottom: 1px solid #7e7e7e;
+}
+
+.container .result-box .btn-result {
+  background-color: #0f9d58;
+  padding: 8px 30px;
+  border: 0;
+  margin: 10px 1px;
+  cursor: pointer;
+  border-radius: 2px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fff;
+  background-color: #0f9d58;
+  border-color: #0f9d58;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 23%), 0 3px 10px rgb(0 0 0 / 16%);
 }
